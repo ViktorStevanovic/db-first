@@ -1,0 +1,15 @@
+Table Name: used-cars;
+
+id - intero - MEDIUMINT - PRIMARY_KEY UNIQUE AUTO_INCREMENT - NOT NULL
+modello - stringa - VARCHAR(25) - NOT NULL
+azienda_produttrice - stringa - VARCHAR(20) - NOT NULL
+costo - float - FLOAT(9, 2) - NULL
+km_percorsi_al_acquisto - intero - MEDIUMINT - NULL
+danni_eventuali - stringa - VARCHAR(100) - NULL
+descrizione_specifiche - stringa - TEXT - NULL
+anno_immatricolazione - YEAR - NULL
+data_ultimo_tagliando - DATE - NULL
+cilindrata - stringa - VARCHAR(20) - NULL
+numero_marce - intero - TINYINT - NULL
+colore_carrozzeria - stringa - VARCHAR(50) - NOT NULL - DEFAULT(0)
+disponibile - booleano - BOOLEAN (TINYINT) - NOT NULL - DEFAULT(TRUE)
